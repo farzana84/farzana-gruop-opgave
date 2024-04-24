@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>group-opgave</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <main>
+    <div class="form">
+      <h2 class="form__heading">Kontakt os</h2>
+      <div class="form__body">
+        <p class="form_text">Du er velkommen til at henvende dig til os, med eventuelle spørgsmål. <br> Vi vil meget
+          gerne høre fra dig.</p>
+        <form id="info" action="takkeside.html" method="post">
+          <label for="name">Navn<span class="star">*</span></label>
+          <input type="text" id="name" name="navn" placeholder="din navn..">
+          <label for="email">Email Address<span class="star">*</span></label>
+          <input type="email" name="email" id="email" placeholder="indsat din Email Address">
+          <label for="phone">Telefon<span class="star">*</span></label>
+          <input type="number" name="phone" id="phone" placeholder="indsat din Telefon Nummer">
+
+          <label for="besked">Besked<span class="star">*</span></label>
+          <textarea id="besked" name="besked" placeholder="Write something.." style="height:200px"></textarea>
+          <input type="checkbox" name="tilladeser" id="tilladeser"><label for="tilladeser">Jeg tillader denne hjemmeside
+            at gemme min indsendelse, så de kan svare på min forespørgsel.</label>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
